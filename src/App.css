@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(45, 58, 45);
+}
+h1 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  background-color: #f9c723;
+  color: #fff;
+  text-align: center;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+.checkbx{
+  align-self:center;
+}
+
+.task-tracker {
+  max-width: 750px;
+  margin: 70px auto 0;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: beige;
+  box-shadow: 1px 20px 70px 20px grey;
+}
+
+.input-box {
+  background-color: rgb(244, 128, 190);
+  height: 30%;
+  padding: 3%;
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 3%;
+  background-color: burlywood;
+  
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: rgba(162, 249, 86, 0.829);
+}
+
+input,
+button {
+  margin: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .task-tracker {
+    padding: 10px;
+  }
+
+  .input-box {
+    height: auto;
+    padding: 10px;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+  }
+}
+
