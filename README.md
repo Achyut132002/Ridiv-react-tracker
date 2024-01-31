@@ -14,7 +14,7 @@ clone the entire directory on your local system then open the terminal in your f
 * 3. Go to the link in terminal to open the app
  
   ## Features:-
-* Add Task: Included a form or input field to add new tasks to the list. Tasks should have at least a name and a date added.
+* Add Task: Included a form or input field to add new tasks to the list. Tasks should have at least a name and a date added."Enter" tab can also be used to add a task.
 * Delete Task: Provided a way to delete tasks from the list.
 * Mark as Completed: Allowed users to mark tasks as completed. Completed tasks should be visually distinct from incomplete ones.
 * Styling: Applied basic styling to make the interface user-friendly. 
